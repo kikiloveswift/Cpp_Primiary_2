@@ -8,6 +8,8 @@
 
 #include <iostream>
 #include "Exchange.hpp"
+#include "WhiteBoard.hpp"
+#include "WhiteBoard.cpp"
 
 class People
 {
@@ -82,28 +84,31 @@ void Student::sayScore()
 
 int main(int argc, const char * argv[])
 {
-    People ppl((char *)"花花",12);
-    ppl.say();
-    std::cout << "ppl length is "<< sizeof(ppl) << std::endl;
+//    People ppl((char *)"花花",12);
+//    ppl.say();
+//    std::cout << "ppl length is "<< sizeof(ppl) << std::endl;
+//    
+//    People *ppl2 = new People();
+//    ppl2 ->setName((char *)"白白");
+//    ppl2 ->setAge(22);
+//    std::cout << "ppl2 length is "<< sizeof(ppl2) << std::endl;
+//    
+//    char *a = (char *)"a";
+//    std::cout << sizeof(char) << std::endl;
+//    
+//    int n1 = 200, n2 = 100;
+//    Swap(&n1, &n2);
+//    std::cout << "n1 = " << n1 << "n2 = " << n2 << std::endl;
+//    
+//    int i1, i2, i3, max_num;
+//    std::cout << "输入3个数:" << std::endl;
+//    std::cin >> i1 >> i2 >> i3;
+//    max_num = max(i1, i2, i3);
+//    std::cout << "3个数:中最大值为"<< max_num << std::endl;
     
-    People *ppl2 = new People();
-    ppl2 ->setName((char *)"白白");
-    ppl2 ->setAge(22);
-    std::cout << "ppl2 length is "<< sizeof(ppl2) << std::endl;
-    
-    char *a = (char *)"a";
-    std::cout << sizeof(char) << std::endl;
-    
-    int n1 = 200, n2 = 100;
-    Swap(&n1, &n2);
-    std::cout << "n1 = " << n1 << "n2 = " << n2 << std::endl;
-    
-    int i1, i2, i3, max_num;
-    
-    std::cout << "输入3个数:" << std::endl;
-    std::cin >> i1 >> i2 >> i3;
-    max_num = max(i1, i2, i3);
-    std::cout << "3个数:中最大值为"<< max_num << std::endl;
+    //Test Template Class
+    Point<int, float> p1(10, 23.5);
+    std::cout << "x = " << p1.getX() << " y = " << p1.getY() << std::endl;
     return 0;
 }
 
