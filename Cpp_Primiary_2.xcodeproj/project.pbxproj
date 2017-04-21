@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FC50A6381EA8B77800FC22AD /* WhiteBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC50A6361EA8B77800FC22AD /* WhiteBoard.cpp */; };
 		FC55C1661DE7CA4A00264090 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC55C1651DE7CA4A00264090 /* main.cpp */; };
+		FC8A07C71EA9E113008F3017 /* ExceptionHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC8A07C51EA9E113008F3017 /* ExceptionHandler.cpp */; };
 		FCCA26DA1EA73BCA002B5B6C /* Exchange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCA26D81EA73BCA002B5B6C /* Exchange.cpp */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,8 @@
 		FC50A6371EA8B77800FC22AD /* WhiteBoard.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WhiteBoard.hpp; sourceTree = "<group>"; };
 		FC55C1621DE7CA4A00264090 /* Cpp_Primiary_2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cpp_Primiary_2; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC55C1651DE7CA4A00264090 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FC8A07C51EA9E113008F3017 /* ExceptionHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExceptionHandler.cpp; sourceTree = "<group>"; };
+		FC8A07C61EA9E113008F3017 /* ExceptionHandler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ExceptionHandler.hpp; sourceTree = "<group>"; };
 		FCCA26D81EA73BCA002B5B6C /* Exchange.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Exchange.cpp; sourceTree = "<group>"; };
 		FCCA26D91EA73BCA002B5B6C /* Exchange.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Exchange.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +71,8 @@
 				FCCA26D91EA73BCA002B5B6C /* Exchange.hpp */,
 				FC50A6361EA8B77800FC22AD /* WhiteBoard.cpp */,
 				FC50A6371EA8B77800FC22AD /* WhiteBoard.hpp */,
+				FC8A07C51EA9E113008F3017 /* ExceptionHandler.cpp */,
+				FC8A07C61EA9E113008F3017 /* ExceptionHandler.hpp */,
 			);
 			path = Cpp_Primiary_2;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 			files = (
 				FC50A6381EA8B77800FC22AD /* WhiteBoard.cpp in Sources */,
 				FCCA26DA1EA73BCA002B5B6C /* Exchange.cpp in Sources */,
+				FC8A07C71EA9E113008F3017 /* ExceptionHandler.cpp in Sources */,
 				FC55C1661DE7CA4A00264090 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

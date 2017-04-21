@@ -11,6 +11,8 @@
 #include "WhiteBoard.hpp"
 #include "WhiteBoard.cpp"
 
+#include "ExceptionHandler.hpp"
+
 class People
 {
 private:
@@ -107,8 +109,12 @@ int main(int argc, const char * argv[])
 //    std::cout << "3个数:中最大值为"<< max_num << std::endl;
     
     //Test Template Class
-    Point<int, float> p1(10, 23.5);
-    std::cout << "x = " << p1.getX() << " y = " << p1.getY() << std::endl;
+//    Point<int, char*> p1(10, "我最帅");
+//    std::cout << "x = " << p1.getX() << " y = " << p1.getY() << std::endl;
+    
+    //EXCeption Class 异常捕捉
+    testException();
+    
     return 0;
 }
 
